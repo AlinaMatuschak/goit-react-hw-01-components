@@ -1,0 +1,48 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  width: 250px;
+  height: 330px;
+  text-align: center;
+  box-shadow: 0 0 5px 1px #e2e8ef;
+}
+
+.description {
+  height: 256px;
+}
+
+.userTag,
+.userName,
+.userLocation {
+  margin: 12px 0;
+}
+
+.userTag,
+.userLocation,
+.label {
+  color: #636669;
+}
+
+.userAvatar {
+  width: 120px;
+  height: 120px;
+  margin: 15px 0 5px;
+  border-radius: 50%;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
+  background-color: #f3f6f9;
+}
+
+.stat {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border: 2px solid #e2e8ef;
+}

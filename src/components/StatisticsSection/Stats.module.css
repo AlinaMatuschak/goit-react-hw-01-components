@@ -1,0 +1,43 @@
+.section {
+  width: 270px;
+  height: 130px;
+  margin: 10px 0;
+  box-shadow: 0 2px 3px 1px #c7cace;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  margin: 0;
+  color: #475965;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 270px;
+  justify-content: center;
+}
+
+.statList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+}
+
+.label,
+.percentage {
+  color: #fff;
+}
+
+.label {
+  font-size: 18px;
+}
+
+.percentage {
+  font-size: 25px;
+}

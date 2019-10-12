@@ -1,0 +1,25 @@
+.transactionHistory {
+  width: 872px;
+  box-shadow: 0 2px 3px 1px #c7cace;
+  border-radius: 5px;
+  text-align: center;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #ecf2f3;
+}
+
+tbody tr {
+  color: #6f7b86;
+  text-transform: capitalize;
+}
+
+thead tr {
+  background-color: #00bcd4;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+tr {
+  height: 50px;
+}
